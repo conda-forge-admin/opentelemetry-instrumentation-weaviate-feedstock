@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-weaviate" %}
-{% set version = "0.62.4" %}
+{% set version = "0.63.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_weaviate-{{ version }}.tar.gz
-  sha256: 8a94203faaf852633eeacd87dfd23d0329258942148f77db1ec66051b999ed9e
+  sha256: e10d3da41ed4541a89d6ca6109680aa2314ff11a8d14694aa5b87e1a63e3fb48
 
 build:
   noarch: python
